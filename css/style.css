@@ -1,0 +1,276 @@
+.container-fluid {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.profile
+{
+	background-image: URL("../img/charger.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.top-title
+{
+	font-size: 150px;
+	font-family: 'Just Another Hand', cursive;
+	padding-top: 20px;
+}
+
+.title
+{
+	font-size: 8em;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.cell-white
+{
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+.cell-black
+{
+	background-color: black; 
+	color: white;
+	text-align: center;
+}
+/* 
+.work-ex
+{
+  background-image: URL("../img/images.png");
+	background-size: cover;
+} */
+
+.cell
+{
+	padding: 30px 30px 30px 30px;
+}
+
+.cell-content
+{
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.side-headings-left
+{
+	text-align: right;
+	text-transform: uppercase;
+	font-family: 'Dosis', sans-serif;
+	font-weight: "bold";
+	font-size: 40px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+.side-descriptions-left
+{
+	text-align: right;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.side-headings-right
+{
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.side-descriptions-right
+{
+	text-align: left;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.education-headings
+{
+	padding: 20px 20px 20px 20px;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.education-content
+{
+	font-family: 'PT Sans', sans-serif;
+}
+
+.bg-image-2 {
+  background: url('../img/hobbies.jpg') center fixed;
+  background-size: cover;
+}
+
+.about-me-text
+{
+  text-align: center;
+  color: #000000;
+  font-family: "Lato";
+  font-size: 20px;
+  color:black;
+}
+
+.line
+{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border: 2px solid white;
+}
+
+.card-button:hover
+{
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.progress-one .progress
+{ 
+    height: 2px;
+    line-height: 28px;
+}
+
+.progress {
+    font-size: 0.75em;
+    line-height: 8em;
+    text-align: center;
+    background-color: #d6d9da;
+    border-radius: 0.25rem;
+    margin-bottom: 1em;
+}
+
+.progress-title {
+    color: #888;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    letter-spacing: 1px;
+    line-height: inherit;
+}
+
+.progress-bar
+{
+	background-color: black;
+}
+
+.hunt-button-text {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.hunt-button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hunt-button:hover {
+  background-color: black;
+}
+
+a { color: inherit; } 
